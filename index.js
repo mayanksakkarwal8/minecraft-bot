@@ -1,2 +1,1 @@
-const {mineboty} = require("mineboty")
-mineboty();
+const mineflayer = require("mineflayer");
