@@ -2,12 +2,12 @@ const mineflayer = require("mineflayer");
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'gorillagang1729.aternos.me', // Aternos IP
-    port: 42480,                        // Aternos port
-    username: 's.mayank0808@gmail.com',        // ✅ Premium Minecraft email
-    password: 'anita2175',          // ✅ Your account password
-    auth: 'microsoft',                 // ✅ If using Microsoft login
-    version: '1.21.6'                  // ✅ Must match your Aternos version
+    host: 'gorillagang1729.aternos.me',
+    port: 42480,
+    username: process.env.MC_EMAIL,     // Get from environment
+    password: process.env.MC_PASSWORD,  // Get from environment
+    auth: 'microsoft',
+    version: '1.21.6'
   });
 
   bot.on('spawn', () => {
