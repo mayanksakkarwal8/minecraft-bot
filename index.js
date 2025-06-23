@@ -9,7 +9,7 @@ const bot = mineflayer.createBot({
   username: process.env.MC_EMAIL,     // Render env variable
   password: process.env.MC_PASSWORD,  // Render env variable
   auth: 'microsoft',
-  version: '1.21.6'
+  version: false
 });
 
 bot.on('spawn', () => {
