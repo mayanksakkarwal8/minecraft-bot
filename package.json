@@ -11,7 +11,7 @@
   "dependencies": {
     "config": "^3.3.3",
     "fs": "0.0.1-security",
-    "mineflayer": "^2.40.0",
+    "mineflayer": "^4.5.0",
     "prismarine-viewer": "^1.20.0"
   }
 }
