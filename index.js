@@ -28,5 +28,5 @@ function createBot() {
     console.log("⚠️ Bot error:", err.message);
   });
 }
-
+process.env.PRISMARINE_NO_WARNINGS = '1';
 createBot();
